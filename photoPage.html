@@ -18,7 +18,7 @@
     	<link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
     	<!-- Custom styles for this template -->
-	    <link href="dist/css/bioSytle.css" rel="stylesheet">
+	    <link href="dist/css/photoStyle.css" rel="stylesheet">
 
     	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -26,24 +26,58 @@
 	</head>
 
 	<!-- Start code for the body panel -->
-	<body>
-		<div class="container">
-			<div class="row featurette" id="info">
-        		<div class="col-md-5">
-          			<img class="featurette-image img-responsive" src="images/ledio2.jpg" alt="Generic placeholder image">
-        		</div>
-        	<div class="col-md-7">
-          		<h2 class="featurette-heading" id="name">Photography</h2>
-          			<p class="lead">http://www.viewbug.com/member/LedioOnFire</p>
-        	</div>
-      	</div> 
-			<div>
-				<a class="btn btn-default" href="index.html" role="button" id="homebutton">Home</a>
-			</div>
+<body>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/tree1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>A Tree In Winter</h1>
+              <p>Taken in December 2014 with an Olympus OM-D and 25mm f1.8 lens</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.viewbug.com/member/ledioonfire" role="button">Viewbug</a>
+			  <a class="btn btn-lg btn-primary" id="500pxbtn" href="https://500px.com/LedioOnFire" role="button">   500px  </a>
+			  </p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/tree2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Sunset in the fall</h1>
+              <p>Taken in the fall of 2014 with an Olympus OM-D and a 25mm f1.8 lens</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.viewbug.com/member/ledioonfire" role="button">Viewbug</a> 
+			  <a class="btn btn-lg btn-primary" id="500pxbtn" href="https://500px.com/LedioOnFire" role="button">   500px   </a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/tree3.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Green </h1>
+              <p>Taken in the summer of 2012 in an Olive grove in Albania.  Taken with a Nikon D3200 and an 18-55mm lens</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.viewbug.com/member/ledioonfire" role="button">Viewbug</a> 
+			  <a class="btn btn-lg btn-primary" id="500pxbtn" href="https://500px.com/LedioOnFire" role="button">   500px   </a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="##myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>
+    </div>
 
-		</div>
-
-    
     <footer>
     </footer>
 
